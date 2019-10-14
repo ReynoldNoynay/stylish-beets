@@ -3,13 +3,26 @@ html{
 }
 
 h1{
-  font-style: PT Sans;
+  font-family: PT Sans;
   font-size: 1.5rem;
+  color ; #3f1622;
 }
 
-nav li {
-  font-style: PT Serif
+nav a {
+  font-family: PT Sans;
+  font-size: 1.125rem;
+  color: #8f2440;
+  text-decoration: none;
+
 }
+
+figure figcaption{
+ font-style: italic;
+ font-size: 0.8rem;
+
+}
+
+
 
 
 
