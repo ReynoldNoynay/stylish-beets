@@ -22,108 +22,59 @@ img {
 
 .days {
   font-weight: bold;
-  font-size; 1.5rem;
+  font-size: 1.125rem;
+}
+/**BEETROOT in Bold**/
+b {
+  font-weight: bold;
 }
 
+blockquote {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+cite {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+
 nav a {
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 1.125rem;
   color: #8f2440;
   text-decoration: none;
 }
 
 figure figcaption{
- font-style: italic;
- font-size: 0.8rem;
- text-align: center;
+  font-style: italic;
+  font-size: 0.8rem;
+  text-align: center;
 
 }
 /** Trageting -- 55 to 65 days are needed from germanation to harvet of the root.**/
 main p:nth-child(1) {
- font-weight: bold;
- font-size:1.5rem;
+  font-weight: bold;
+  font-size:1.5rem;
 }
 
-  h2{
-    font-family: PT Sans;
-  }
+h2{
+  font-family: 'PT Sans';
+}
 
-  ol li {
-    list-style-type: lower-greek;
-  }
+ol li {
+  list-style-type: lower-greek;
+}
+
+dt{
+  font-weight: bold;
+}
 
 dl dt:nth-child(1) {
-    font-style: italic;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-footer {
-  font-size: 1.5rem;
+  font-style: italic;
 }
 
-nav ul {
-  font-family: sans-serif;
+ul li{
+  list-style-type:circle;
 }
-
-.logo {
-  text-transform: uppercase;
-}
-
-.wrapper {
-  background-color: #eee8d5;
-}
-
-h2 {
-  color: #93a1a1;
-}
-
-.wrapper > .dfn {
-  background-color: #b58900;
-}
-
-.dfn p + strong {
-  color: #fff;
-}
-
-a:not(.no-highlight) {
-  background-color: #719e07;
-}
-
-[rel="external"] {
-  background-color: #2694d8;
-}
-
-ol li:nth-child(1) {
-  color: #719e47;
-}
-
-ol li:nth-child(3) {
-  color: #2aa198;
-}
-
-.types li:nth-child(odd) {
-  background-color: #657ba3;
-}
-
-.types li:nth-child(even) {
-  background-color: #586e75;
-}
-
-.types li:nth-child(3n) {
-  background-color: #d04b16;
-}/*
