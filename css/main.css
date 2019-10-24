@@ -1,11 +1,28 @@
 html{
   background-color: #c9b5ab;
+  font-family: "PT serif", serif;
+  font-weight: normal;
+}
+/** NEED TO ITALIC "BETA VULGARIS"**/
+h1{
+  font-family: "PT Sans";
+  font-size: 1.5rem;
+  color: #3f1622;
 }
 
-h1{
-  font-family: PT Sans;
-  font-size: 1.5rem;
-  color ; #3f1622;
+a:hover{
+  color: #3f1622;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+img {
+  width:100%;
+}
+
+.days {
+  font-weight: bold;
+  font-size; 1.5rem;
 }
 
 nav a {
@@ -13,14 +30,31 @@ nav a {
   font-size: 1.125rem;
   color: #8f2440;
   text-decoration: none;
-
 }
 
 figure figcaption{
  font-style: italic;
  font-size: 0.8rem;
+ text-align: center;
 
 }
+/** Trageting -- 55 to 65 days are needed from germanation to harvet of the root.**/
+main p:nth-child(1) {
+ font-weight: bold;
+ font-size:1.5rem;
+}
+
+  h2{
+    font-family: PT Sans;
+  }
+
+  ol li {
+    list-style-type: lower-greek;
+  }
+
+dl dt:nth-child(1) {
+    font-style: italic;
+  }
 
 
 
