@@ -1,6 +1,6 @@
 html {
   background-color: #c9b5ab;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-weight: normal;
 }
 
@@ -38,6 +38,7 @@ blockquote {
 cite {
   font-size: 1rem;
   font-style: italic;
+  font-weight: lighter;
 }
 
 nav ol {
@@ -52,9 +53,15 @@ nav a {
   list-style: none;
 }
 
+a {
+  color: #8f2440;
+  text-decoration: none;
+  list-style: none;
+}
+
 figure figcaption {
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: .8rem;
   text-align: center;
 }
 
@@ -64,7 +71,7 @@ main p:nth-child(1) {
 }
 
 h2 {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
 }
 
 dt {
@@ -85,5 +92,5 @@ ul li {
 }
 
 .common {
-    list-style-type: lower-greek;
+  list-style-type: lower-greek;
 }
