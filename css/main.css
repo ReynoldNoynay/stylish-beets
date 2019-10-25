@@ -40,11 +40,16 @@ cite {
   font-style: italic;
 }
 
+nav ol {
+  list-style-type: none;
+}
+
 nav a {
   font-family: "PT Sans";
   font-size: 1.125rem;
   color: #8f2440;
   text-decoration: none;
+  list-style: none;
 }
 
 figure figcaption {
@@ -62,10 +67,6 @@ h2 {
   font-family: 'PT Sans';
 }
 
-ol li {
-  list-style-type: lower-greek;
-}
-
 dt {
   font-weight: bold;
 }
@@ -80,4 +81,9 @@ dl dt:nth-child(1) {
 
 ul li {
   list-style-type: circle;
+  line-height: 1.5;
+}
+
+.common {
+    list-style-type: lower-greek;
 }
